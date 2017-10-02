@@ -1,5 +1,5 @@
 /* By: Paul Patryas
-Old c++ program - factorials and summations */
+Old c++ program - factorials and summations */ 
 
 #include <iostream>
 
