@@ -1,3 +1,9 @@
+/* By: Paul Patryas
+    first foray into polymorphism
+    Date: Dec 2016 */
+
+
+
 #include <iostream>
 #include <stdlib.h>
 
@@ -24,7 +30,7 @@ class Poodle : public Dog { // A poodle "is a" Dog;
             std::cout << "Poodle's height is: " << height << std::endl;
         }
         void Speak() { std::cout << "yip yip!" << std::endl; }     // poodles are yappy dogs, so have it yip
-        void Color() { std::cout << "I'm a brown dog." << std::endl; }
+        void Color() { std::cout << "I'm a small dog." << std::endl; }
 };
 
 class GoldenLab : public Dog {// A lab "is a" Dog
@@ -35,7 +41,7 @@ class GoldenLab : public Dog {// A lab "is a" Dog
             std::cout << "Lab's height is: " << height << std::endl;
         }
         void Speak() { std::cout << "woof woof!" << std::endl; }      // bigger dogs have bigger barks
-        void Color() { std::cout << "I'm a yellow dog." << std::endl; }
+        void Color() { std::cout << "I'm a medium-size dog." << std::endl; }
 };
 
 class PitBull : public Dog {// A pit-bull "is a" Dog
@@ -46,7 +52,7 @@ class PitBull : public Dog {// A pit-bull "is a" Dog
             std::cout << "Pitbull's height is: " << height << std::endl;
         }
         void Speak() { std::cout << "growl growl!" << std::endl; }
-        void Color() { std::cout << "I'm a white dog." << std::endl; }
+        void Color() { std::cout << "I'm a mean dog." << std::endl; }
 };
 
 //  ** THIS IS THE REAL MAGIC **
