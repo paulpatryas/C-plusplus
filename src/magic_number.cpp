@@ -1,5 +1,5 @@
 /* By: Paul Patryas
-    Old c++ project - Magic number
+    Old c++ project - Magic number 
     Date: Aug 2016 */
 
 #include <iostream>
